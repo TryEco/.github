@@ -1,5 +1,6 @@
 Hi there, this is the TryEco repo.
 This is where TryDE and the Try themes (Try Turtle, Try Ant, Try Honeybee, Try Beaver) are made and hosted.
+Try Turtle and Try Ant are our dark themes, Try Honeybee and Beaver are our light ones.
 
 # ACCENTS
 green = "#b2f8c9"
