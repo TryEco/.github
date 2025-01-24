@@ -16,4 +16,4 @@ surface2 = "#7bc274"\
 surface1 = "#7bc274"\
 surface0 = "#020c23"\
 mantle = "#020c23"\
-crust = "#020c23"\
+crust = "#020c23"
