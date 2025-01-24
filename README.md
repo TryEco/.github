@@ -5,8 +5,8 @@ This is where TryDE and the Try themes (Try Turtle, Try Ant, Try Honeybee, Try B
 green = "#b2f8c9"
 
 # COLORS
-base = "#09111d"
-text = "#7c94e9"
+base = "#09111d"\n
+text = "#7c94e9"\n
 subtext1 = "#7bc274"
 subtext0 = "#c8daf4"
 overlay2 = "#c8daf4"
