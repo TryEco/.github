@@ -1,20 +1,5 @@
-Hi there, this is the TryEco repo.
-This is where TryDE and the Try themes (Try Turtle, Try Ant, Try Honeybee, Try Beaver) are made and hosted.
-Try Turtle and Try Ant are our dark themes, Try Honeybee and Beaver are our light ones.
+# We know that the themes don't fit the names
 
-# TRY TURTLE ACCENTS
-green = "#b2f8c9"
+Welcome to TryEco. Here we (will) have a lot of projects, that have to do with configuring Windows and Linux. We also have a theme: `Try`, which has these four sub-themes `Beaver` `Honeybee` `Ant` and `Turtle`.
 
-# TRY TURTLE COLORS
-base = "#09111d"\
-text = "#7c94e9"\
-subtext1 = "#7bc274"\
-subtext0 = "#c8daf4"\
-overlay2 = "#c8daf4"\
-overlay1 = "#7bc274"\
-overlay0 = "#020c23"\
-surface2 = "#7bc274"\
-surface1 = "#7bc274"\
-surface0 = "#020c23"\
-mantle = "#020c23"\
-crust = "#020c23"
+We also have a [website](TryEco.github.io) (WIP)!
