@@ -2,4 +2,4 @@
 
 Welcome to TryEco. Here we (will) have a lot of projects, that have to do with configuring Windows and Linux. We also have a theme: `Try`, which has these four sub-themes `Beaver` `Honeybee` `Ant` and `Turtle`.
 
-We also have a [website](TryEco.github.io) (WIP)!
+We also have a [website](tryeco.github.io) (WIP)!
