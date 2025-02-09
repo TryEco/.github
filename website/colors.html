@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  	font-family: arial, sans-serif;
+}
+table {
+  	border-collapse: collapse;
+	width: 25vw;
+}
+td, th {
+  	border: 1px solid #dddddd;
+	text-align: left;
+  	padding: 0.5vw;
+	width: 1vw;
+}
+button {
+    width: 10vw;
+	height: 3vh;
+    padding: 0;
+    border: 0;
+    border-radius: 0.26vw;
+    cursor: pointer;
+}
+
+button:active {
+	opacity: 0.8;
+}
+button:hover {
+	opacity: 0.8;
+}
+</style>
+<body>
+
+<h1>COLORS</h1>
+
+<table style="width:99%">
+  <tr>
+  	<th></th>
+    <th>Beaver</th>
+    <th>Honeybee</th>
+    <th>Ant</th>
+    <th>Turtle</th>
+  </tr>
+  <tr>
+    <th>text</th>
+    <td><button id="copyButton" style="background-color: #3d2b1f;"></button></td>
+    <td><button id="copyButton" style="background-color: #000000;"></button></td>
+    <td><button id="copyButton" style="background-color: #c8daf4;"></button></td>
+    <td><button id="copyButton" style="background-color: #7c94e9;"></button></td>
+  </tr>
+  <tr>
+    <th>subtext1</th>
+    <td><button id="copyButton" style="background-color: #ffa44a;"></button></td>
+    <td><button id="copyButton" style="background-color: #7bc274;"></button></td>
+    <td><button id="copyButton" style="background-color: #c4b4ed;"></button></td>
+    <td><button id="copyButton" style="background-color: #7bc274;"></button></td>
+  </tr>
+  <tr>
+    <th>subtext0</th>
+    <td><button id="copyButton" style="background-color: #000000;"></button></td>
+    <td><button id="copyButton" style="background-color: #7c94e9;"></button></td>
+    <td><button id="copyButton" style="background-color: #bdbdbc;"></button></td>
+    <td><button id="copyButton" style="background-color: #c8daf4;"></button></td>
+  </tr>
+   <tr>
+    <th>overlay2</th>
+    <td><button id="copyButton" style="background-color: #000000;"></button></td>
+    <td><button id="copyButton" style="background-color: #7c94e9;"></button></td>
+    <td><button id="copyButton" style="background-color: #bdbdbc;"></button></td>
+    <td><button id="copyButton" style="background-color: #c8daf4;"></button></td>
+  </tr>
+  <tr>
+    <th>overlay1</th>
+    <td><button id="copyButton" style="background-color: #ffa44a;"></button></td>
+    <td><button id="copyButton" style="background-color: #7bc274;"></button></td>
+    <td><button id="copyButton" style="background-color: #c4b4ed;"></button></td>
+    <td><button id="copyButton" style="background-color: #7bc274;"></button></td>
+  </tr>
+  <tr>
+    <th>overlay0</th>
+    <td><button id="copyButton" style="background-color: #e2d4cc;"></button></td>
+    <td><button id="copyButton" style="background-color: #c8daf4;"></button></td>
+    <td><button id="copyButton" style="background-color: #393838;"></button></td>
+    <td><button id="copyButton" style="background-color: #020c23;"></button></td>
+  </tr>
+  <tr>
+    <th>surface2</th>
+    <td><button id="copyButton" style="background-color: #ffa44a;"></button></td>
+    <td><button id="copyButton" style="background-color: #7bc274;"></button></td>
+    <td><button id="copyButton" style="background-color: #c4b4ed;"></button></td>
+    <td><button id="copyButton" style="background-color: #7bc274;"></button></td>
+  </tr>
+  <tr>
+    <th>surface1</th>
+    <td><button id="copyButton" style="background-color: #ffa44a;"></button></td>
+    <td><button id="copyButton" style="background-color: #7bc274;"></button></td>
+    <td><button id="copyButton" style="background-color: #c4b4ed;"></button></td>
+    <td><button id="copyButton" style="background-color: #7bc274;"></button></td>
+  </tr>
+  <tr>
+    <th>surface0</th>
+    <td><button id="copyButton" style="background-color: #e2d4cc;"></button></td>
+    <td><button id="copyButton" style="background-color: #c8daf4;"></button></td>
+    <td><button id="copyButton" style="background-color: #393838;"></button></td>
+    <td><button id="copyButton" style="background-color: #020c23;"></button></td>
+  </tr>
+  <tr>
+    <th>base</th>
+    <td><button id="copyButton" style="background-color: #dacac1;"></button></td>
+    <td><button id="copyButton" style="background-color: #dee3e9;"></button></td>
+    <td><button id="copyButton" style="background-color: #333333;"></button></td>
+    <td><button id="copyButton" style="background-color: #09111d;"></button></td>
+  </tr>
+  <tr>
+    <th>mantle</th>
+    <td><button id="copyButton" style="background-color: #e2d4cc;"></button></td>
+    <td><button id="copyButton" style="background-color: #c8daf4;"></button></td>
+    <td><button id="copyButton" style="background-color: #393838;"></button></td>
+    <td><button id="copyButton" style="background-color: #020c23;"></button></td>
+  </tr>
+  <tr>
+    <th>crust</th>
+    <td><button id="copyButton" style="background-color: #e2d4cc;"></button></td>
+    <td><button id="copyButton" style="background-color: #c8daf4;"></button></td>
+    <td><button id="copyButton" style="background-color: #393838;"></button></td>
+    <td><button id="copyButton" style="background-color: #020c23;"></button></td>
+  </tr>
+</table>
+<script>
+function rgbToHex(rgb) {
+    const result = rgb.match(/\d+/g);
+    if (result) {
+        return "#" +
+            ("0" + parseInt(result[0]).toString(16)).slice(-2) +
+            ("0" + parseInt(result[1]).toString(16)).slice(-2) +
+            ("0" + parseInt(result[2]).toString(16)).slice(-2);
+    }
+    return rgb;
+}
+
+const buttons = document.querySelectorAll('#copyButton');
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        const rgbColor = window.getComputedStyle(button).backgroundColor;
+        const hexColor = rgbToHex(rgbColor);
+        navigator.clipboard.writeText(hexColor)
+            .then(() => {
+                alert('Color ' + hexColor + ' copied to clipboard!');
+            })
+    });
+});
+</script>
+
+</body>
+</html>
